@@ -1,11 +1,8 @@
 import "./CountryListItemStyles.css";
-import { Card, Text, Button } from "@mantine/core";
-import { useRouter } from "next/navigation";
+import { Card, Text } from "@mantine/core";
 import Image from "next/image";
 
 const CountryListItem = ({ country }: { country: IRestCountry }) => {
-  const router = useRouter();
-
   const formattedPopulation = new Intl.NumberFormat("fi", {
     useGrouping: true,
   }).format(country.population);
@@ -15,7 +12,6 @@ const CountryListItem = ({ country }: { country: IRestCountry }) => {
       shadow="sm"
       radius="md"
       withBorder
-      onClick={() => router.push("countries/country")}
       className="container"
     >
       <Card.Section>
