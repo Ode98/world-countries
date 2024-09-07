@@ -1,3 +1,5 @@
+Public url: [https://world-countries-bc6hxae6h-ottos-projects-7cb6be0b.vercel.app/countries](https://world-countries-bc6hxae6h-ottos-projects-7cb6be0b.vercel.app/countries)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
